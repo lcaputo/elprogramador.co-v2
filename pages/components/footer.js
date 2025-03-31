@@ -10,8 +10,8 @@ const Footer = () => {
               <Image src="/images/icon.webp" alt="logo" width={60} height={60} />
               <div className="font-bold mt-2">SOCIAL</div>
             </div>
-            <div className="flex mt-4 justify-evenly mx-auto w-48 text-gray-400">
-              <a
+            <div className="flex mt-4 justify-center gap-4 mx-auto w-48 text-gray-400">
+              {/* <a
                 className="hover:opacity-75"
                 href="https://facebook.com/laszlo.caputo/"
                 target="_blank"
@@ -50,7 +50,7 @@ const Footer = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </a> */}
               <a
                 className="hover:opacity-75"
                 href="https://www.linkedin.com/in/laszlo-caputo-0b80b0162/"

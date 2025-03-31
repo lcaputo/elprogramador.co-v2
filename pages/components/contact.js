@@ -57,6 +57,10 @@ const Contact = ({ navRef }) => {
                     draggable: true,
                     progress: undefined,
                     });
+                    // clear form
+                    document.getElementById("name").value = "";
+                    document.getElementById("email").value = "";
+                    document.getElementById("message").value = "";
                 })
                 .catch((error) => {
                   toast.error('Error!', {
